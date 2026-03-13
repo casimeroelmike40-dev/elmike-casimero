@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELMIKE CASIMERO · Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+        <header>
+            <h1>My Portfolio</h1>
+            <nav class="nav-menu">
+                <a href="#" class="nav-link active" data-section="home">Home</a>
+                <a href="#" class="nav-link" data-section="projects">My Projects</a>
+                <a href="#" class="nav-link" data-section="about">About Me</a>
+                <a href="#" class="nav-link" data-section="contacts">Contacts</a>
+            </nav>
+        </header>
+
+        
+        <main id="content-area">
+            
+            <section id="home-section" class="content-section active-section">
+                <div class="container">
+                    <div class="profile-container">
+                        <div class="profile-image-square">
+                            <img src="cas1.jpg" alt="ELMIKE CASIMERO Profile" 
+                                 class="profile-img-square">
+                        </div>
+                        <div class="profile-text">
+                            <h2>Hi, I'm ELMIKE CASIMERO</h2>
+                            <p class="subtitle">Welcome to my personal portfolio.</p>
+                            <button class="view-work-btn">View My Work</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           
+            <section id="projects-section" class="content-section">
+                <div class="container">
+                    <h2>My Projects</h2>
+                    <div class="project-container">
+
+                        
+                        <div class="project-card" onclick="toggleProject(this)">
+                            <img src="ss1.PNG" alt="Housing Loan 1">
+                            <img src="ss2.PNG" alt="Housing Loan 2">
+                            <img src="ss3.PNG" alt="Housing Loan 3">
+                            <h3>Housing Loan System</h3>
+                            <div class="project-details">
+                                <p>Land Bank housing loan management is a housing loan who interest to loan a land or housing.</p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="project-card" onclick="toggleProject(this)">
+                            <img src="grading1.PNG" alt="Grading Systems 1">
+                            <img src="grading2.PNG" alt="Grading Systems 2">
+                            <img src="grading.31.PNG" alt="Grading Systems 3">
+                            <h3>Grading Systems</h3>
+                            <div class="project-details">
+                                <p>Grading systems is the record of student average grade who want to see he/she grades and while the teacher was a input a grading of student.</p>
+                            </div>
+                        </div>
+
+                      
+                        <div class="project-card" onclick="toggleProject(this)">
+                            <img src="churchattendance1.PNG" alt="churchattendance1">
+                            <img src="churchattendance2.PNG" alt="churchattendance2">
+                            <img src="churchattendance3.PNG" alt="churchattendance3">
+                            <h3>Church Attendance systems</h3>
+                            <div class="project-details">
+                                <p>This System is use to record the attendance of altar server.</p>
+                            </div>
+                        </div>
+
+                     
+                        <div class="project-card" onclick="toggleProject(this)">
+                            <img src="clinicrecord1.PNG" alt="clinicrecord1 ">
+                            <img src="clinicrecord2.PNG" alt="clinicrecord2 ">
+                            <img src="clinicrecord3.PNG" alt="clinicrecord3 ">
+                            <h3>Clinic Record Systems</h3>
+                            <div class="project-details">
+                                <p>This System is designed for students and personnel who visit the clinic for a check-up or consultation. It records all patient visits, including their personal information, symptoms, and the medicine given by the clinic staff.</p>
+                            </div>
+                        </div>
+
+                      
+                        <div class="project-card" onclick="toggleProject(this)">
+                            <img src="medsuggest1.PNG" alt="medsuggest1">
+                            <img src="medsuggest2.PNG" alt="medsuggest2">
+                            <img src="medsuggest3.PNG" alt="medsuggest3">
+                            <img src="medsuggest4.PNG" alt="medsuggest4">
+                            <h3>Medsuggest</h3>
+                            <div class="project-details">
+                                <p>This system is a website that allows users to check their symptoms and order medicine based on what they are feeling. When a user searches for a medicine or the symptoms they are experiencing, the system will directly provide the appropriate medicine recommendations based on the symptoms they entered, along with the specific medicine they need to order.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="about-section" class="content-section">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <div class="about-content">
+                        <img src="cas1.jpg" 
+                             alt="ELMIKE CASIMERO" 
+                             class="about-img-square">
+                        <div>
+                            <p>I'm ELMIKE CASIMERO, I'm Bachelor of Scienc in Computer Science even this program is difficult but i just try my best to learn, study, and also to explore about this programs. I have a experience to creating systems, Even when I'm tired, I keep trying and never give up on myself.   </p>                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="contacts-section" class="content-section">
+                <div class="container">
+                    <h2>Contacts</h2>
+                    <div class="contacts-container">
+                        <div class="contact-card" onclick="window.open('https://www.facebook.com/elmike.casimero.2024', '_blank')">
+                            <span class="contact-icon">📘</span>
+                            <h3>Facebook</h3>
+                            <p>/elmike.casimero</p>
+                        </div>
+
+                        <div class="contact-card" onclick="window.location.href='mailto:elmike.casimero@gmail.com'">
+                            <span class="contact-icon">📧</span>
+                            <h3>Gmail</h3>
+                            <p>elmike.casimero</p>
+                        </div>
+                        <div class="contact-card" onclick="window.location.href='tel:+639123456789'">
+                            <span class="contact-icon">📞</span>
+                            <h3>Phone</h3>
+                            <p>+63 912 345 6789</p>
+                        </div>
+
+                        <div class="contact-card" onclick="window.open('https://github.com/casimeroelmike40-dev', '_blank')">
+                            <span class="contact-icon">💻</span>
+                            <h3>GitHub</h3>
+                            <p>/elmike-codes</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
